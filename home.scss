@@ -1,0 +1,112 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+  font-family: "Avenir Next";
+  color: #2d3133;
+  margin: 0px;
+}
+
+ul, li {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: #2d3133;
+}
+
+h1, p {
+  margin-bottom: 20px;
+}
+
+.header {
+  height: 70px;
+  width: 100%;
+  background-color: #98605e;
+}
+
+.header-logo {
+  float: left;
+  font-size: 20px;
+  padding: 20px 40px;
+}
+
+.header-logo a {
+  color: white;
+}
+
+.header-list {
+  float: right;
+  font-size: 15px;
+  padding-top: 13px;
+  padding-right: 20px;
+  padding-bottom: 13px;
+}
+
+.header-list a {
+  color: white;
+}
+
+.header-list li {
+  float: left;
+  color: white;
+  padding: 12px 20px;
+}
+
+.main {
+  padding: 70px 80px;
+  top: 64px;
+  width: 100%;
+  height: auto;
+  min-height: 300px;
+  background-color: #ffefd5;
+}
+
+.top-message {
+  font-size: 20px;
+}
+
+.about-message {
+  font-size: 12px;
+}
+
+.about-message2 {
+  font-size: 16px;
+}
+
+.management-message {
+  font-size: 12px;
+}
+
+.management-to-index {
+  font-size: 16px;
+}
+
+.footer {
+  background-color: #8f6552;
+  color: #fff;
+  height: 52px;
+  padding: 30px 40px;
+}
+
+.footer-logo {
+  float: left;
+  font-size: 16px;
+}
+
+.footer-list {
+  float: right;
+  font-size: 14px;
+  padding: 0px;
+}
+
+.footer-list ul {
+  margin: 0px;
+}
+
+.footer-list li {
+  padding-bottom: 12px;
+}
